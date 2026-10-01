@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "app-parchese",
-    "slug": "app-parchese",
+    "name": "parchese",
+    "slug": "parchese",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "appparchese",
+    "scheme": "parchese",
     "userInterfaceStyle": "automatic",
     "ios": {
       "icon": "./assets/expo.icon"
