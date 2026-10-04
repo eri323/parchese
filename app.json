@@ -11,6 +11,7 @@
       "icon": "./assets/expo.icon"
     },
     "android": {
+      "package": "app.parchese",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -33,10 +34,22 @@
               {
                 "fontFamily": "Figtree",
                 "fontDefinitions": [
-                  { "path": "./node_modules/@expo-google-fonts/figtree/400Regular/Figtree_400Regular.ttf", "weight": 400 },
-                  { "path": "./node_modules/@expo-google-fonts/figtree/600SemiBold/Figtree_600SemiBold.ttf", "weight": 600 },
-                  { "path": "./node_modules/@expo-google-fonts/figtree/700Bold/Figtree_700Bold.ttf", "weight": 700 },
-                  { "path": "./node_modules/@expo-google-fonts/figtree/800ExtraBold/Figtree_800ExtraBold.ttf", "weight": 800 }
+                  {
+                    "path": "./node_modules/@expo-google-fonts/figtree/400Regular/Figtree_400Regular.ttf",
+                    "weight": 400
+                  },
+                  {
+                    "path": "./node_modules/@expo-google-fonts/figtree/600SemiBold/Figtree_600SemiBold.ttf",
+                    "weight": 600
+                  },
+                  {
+                    "path": "./node_modules/@expo-google-fonts/figtree/700Bold/Figtree_700Bold.ttf",
+                    "weight": 700
+                  },
+                  {
+                    "path": "./node_modules/@expo-google-fonts/figtree/800ExtraBold/Figtree_800ExtraBold.ttf",
+                    "weight": 800
+                  }
                 ]
               }
             ]
@@ -63,6 +76,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "67ecfeb2-0785-4e47-b363-49d2fff33438"
+      }
+    },
+    "owner": "erickguti"
   }
 }
