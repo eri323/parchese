@@ -1,5 +1,6 @@
+import type { TextStyle } from 'react-native';
+
 // parchese — tokens de diseño (decisión 0010). Fuente: Claude Design, «Identidad y pantallas v2» y «ParcheseApp v2».
-// En la fase 3 este archivo pasa a src/core/ui/tokens.ts.
 
 const juegoClaro = {
   memoria: { matiz: '#466880', tinte: '#E6F0F8' },
@@ -45,9 +46,11 @@ export const sombra = {
 
 export const fuente = { interfaz: 'Figtree' } as const;
 
-// Marca: «parchese» siempre en minúsculas, Figtree 750, tracking −3.5 %.
+// Marca: «parchese» siempre en minúsculas, Figtree 800, tracking −3.5 %.
+// La v2 usa 750, pero Figtree solo viene en pesos fijos: se usa 800. Los pesos embebidos (400, 600, 700, 800) están
+// en el plugin expo-font de app.json; uno nuevo hay que agregarlo allá.
 export const tipo = {
-  tituloGrande: { fontFamily: 'Figtree', fontWeight: '750', fontSize: 32, lineHeight: 38, letterSpacing: -0.8 },
+  tituloGrande: { fontFamily: 'Figtree', fontWeight: '800', fontSize: 32, lineHeight: 38, letterSpacing: -0.8 },
   titulo: { fontFamily: 'Figtree', fontWeight: '700', fontSize: 22, lineHeight: 28, letterSpacing: -0.44 },
   encabezado: { fontFamily: 'Figtree', fontWeight: '600', fontSize: 17, lineHeight: 22, letterSpacing: -0.17 },
   cuerpo: { fontFamily: 'Figtree', fontWeight: '400', fontSize: 16, lineHeight: 22 },
@@ -55,8 +58,8 @@ export const tipo = {
   seccion: { fontFamily: 'Figtree', fontWeight: '600', fontSize: 13, lineHeight: 18, letterSpacing: 0.52, textTransform: 'uppercase' },
   pestana: { fontFamily: 'Figtree', fontWeight: '600', fontSize: 11, lineHeight: 14 },
   boton: { fontFamily: 'Figtree', fontWeight: '600', fontSize: 17, lineHeight: 22 },
-  cifra: { fontFamily: 'Figtree', fontWeight: '750', fontSize: 34, lineHeight: 40, letterSpacing: -1.02, fontVariant: ['tabular-nums'] },
-} as const;
+  cifra: { fontFamily: 'Figtree', fontWeight: '800', fontSize: 34, lineHeight: 40, letterSpacing: -1.02, fontVariant: ['tabular-nums'] },
+} as const satisfies Record<string, TextStyle>;
 
 export const espacio = { xs: 4, s: 8, m: 12, l: 16, xl: 20, xxl: 24, xxxl: 32 } as const;
 export const radio = { selector: 8, boton: 14, icono: 14, carta: 16, tarjeta: 22, panel: 30, etiqueta: 999 } as const;

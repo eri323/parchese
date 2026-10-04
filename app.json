@@ -26,6 +26,32 @@
     "plugins": [
       "expo-router",
       [
+        "expo-font",
+        {
+          "android": {
+            "fonts": [
+              {
+                "fontFamily": "Figtree",
+                "fontDefinitions": [
+                  { "path": "./node_modules/@expo-google-fonts/figtree/400Regular/Figtree_400Regular.ttf", "weight": 400 },
+                  { "path": "./node_modules/@expo-google-fonts/figtree/600SemiBold/Figtree_600SemiBold.ttf", "weight": 600 },
+                  { "path": "./node_modules/@expo-google-fonts/figtree/700Bold/Figtree_700Bold.ttf", "weight": 700 },
+                  { "path": "./node_modules/@expo-google-fonts/figtree/800ExtraBold/Figtree_800ExtraBold.ttf", "weight": 800 }
+                ]
+              }
+            ]
+          },
+          "ios": {
+            "fonts": [
+              "./node_modules/@expo-google-fonts/figtree/400Regular/Figtree_400Regular.ttf",
+              "./node_modules/@expo-google-fonts/figtree/600SemiBold/Figtree_600SemiBold.ttf",
+              "./node_modules/@expo-google-fonts/figtree/700Bold/Figtree_700Bold.ttf",
+              "./node_modules/@expo-google-fonts/figtree/800ExtraBold/Figtree_800ExtraBold.ttf"
+            ]
+          }
+        }
+      ],
+      [
         "expo-splash-screen",
         {
           "backgroundColor": "#208AEF",

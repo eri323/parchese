@@ -17,7 +17,7 @@ a partir de los [enfoques](../branding/enfoques.md). Hubo dos versiones.
 
 ## Decisión
 La v2 gobierna en todo: lo que diga la v2 manda sobre cualquier documento anterior. Los valores están en
-[tokens.ts](../branding/tokens.ts) y el resumen en la *Vuelta de Claude Design* de
+[tokens.ts](../../src/core/ui/tokens.ts) y el resumen en la *Vuelta de Claude Design* de
 [enfoques.md](../branding/enfoques.md).
 
 ## Consecuencias

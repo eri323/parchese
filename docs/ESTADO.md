@@ -8,7 +8,7 @@ verificar el nombre antes de crear el repo.
 ## Hecho
 - Producto y MVP definidos ([mvp.md](producto/mvp.md)), con el andamiaje de trabajo con IA.
 - Branding **parchese** ([0010](decisiones/0010-branding-parchese.md)), con tokens en
-  [tokens.ts](branding/tokens.ts).
+  [tokens.ts](../src/core/ui/tokens.ts).
 
 ## Siguiente
 1. Verificar «parchese» y `app.parchese` en Play Store, en el dominio y en GitHub.

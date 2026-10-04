@@ -67,7 +67,7 @@ src/content/es/ temas en JSON + content.test.ts
 ## Branding
 
 Definido en la [0010](docs/decisiones/0010-branding-parchese.md): **parchese**, siempre en minúsculas, con Figtree
-y una ficha de juego como ícono. Los tokens están en [docs/branding/tokens.ts](docs/branding/tokens.ts). Manda la
+y una ficha de juego como ícono. Los tokens están en [src/core/ui/tokens.ts](src/core/ui/tokens.ts). Manda la
 v2 de Claude Design, y ante cualquier duda visual se consulta ese diseño. El nombre aún no está verificado en
 Play Store.
 

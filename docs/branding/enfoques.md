@@ -293,7 +293,7 @@ Formato: los tokens como JSON o como tabla con valores hex y tamaños, para llev
 - **Nombre:** `parchese`, siempre en minúsculas. En el prototipo también se probaron parche, ratico y recreo.
   El `applicationId` propuesto es `app.parchese`.
 - **Nombre verificado en Play Store, dominio y GitHub:** **pendiente**.
-- **Paleta (tokens):** en [tokens.ts](tokens.ts).
+- **Paleta (tokens):** en [tokens.ts](../../src/core/ui/tokens.ts).
   - Claro: fondo `#F4F3F0`, texto `#1C1F1E`, Pausa `#3E6B57`, Reto `#A3532F`.
   - Oscuro: fondo `#0E0F0F`, Pausa `#8CC2A6`, Reto `#E8A084`.
   - Cada juego tiene su matiz y su tinte.
